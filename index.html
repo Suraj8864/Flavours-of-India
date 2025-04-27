@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flavours of India</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>body {
+        background-color: bisque;}
+      .carousel-item img {
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+        image-rendering: auto;}
+        h1:hover {
+      text-decoration: underline;
+      cursor: pointer; 
+    }
+    .navbar {
+  background-color: #e8a0e2;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar:hover {
+  background-color: #38d6c1;
+}
+
+.navbar a {
+  color: rgb(225, 235, 76);
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar:hover a {
+  color: rgb(175, 204, 240); 
+}
+p1 {
+  style="max-height: auto; width: 100%; object-fit: cover;"
+}
+body {
+      background-color: #f8f9fa;
+    }
+    img {
+      object-fit: cover;
+      transition: all 0.5s ease;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+        </style>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar bg-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <a href="index.html"><img src="India.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></a>
+          Indian's Swad
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <left><a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Explore">Explore More</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Contact">Contact Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                States
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Pootharekulu">Andhra Pradesh</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Thukpa">Arunachal Pradesh</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Assamese_cuisine#Masor_tenga">Assam</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Litti_(dish)">Bihar</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Chhattisgarhi_cuisine">Chhattisgarh</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Goan_cuisine">Goa</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Dhokla">Gujrat</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Cuisine_of_Haryana">Haryana</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/List_of_chickpea_dishes">Himachal Pradesh</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Thekua">Jharkhand</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Karnataka_cuisine">Karnataka </a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Kerala_cuisine">Kerla</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Rogan_josh">Madhya Pradesh </a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Maharashtrian_cuisine">Maharashta</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Manipuri_cuisine">Manipur</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Meghalayan_cuisine">Meghalaya</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Mizo_cuisine">Mizoram</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Naga_cuisine">Nagaland</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Cuisine_of_Odisha">Odisha</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Punjabi_cuisine">Punjab</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Rajasthani_cuisine">Rajasthan</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Sikkimese_cuisine">Sikkim</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Tamil_cuisine">Tamil Nadu</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Telangana_cuisine">Telangana</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Tripuri_cuisine">Tripura</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Uttar_Pradesh_cuisine">Utter Pradesh</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Kumaoni_cuisine">Uttrakhand</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Bengali_cuisine">West Bengal</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Andhra Pradesh – Pootharekulu.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Andhra Pradesh – Pootharekulu</h5>
+            <p> Pootharekulu is a paper-thin sweet made with rice starch, ghee, and jaggery or sugar. Originating
+              from Atreyapuram, it's a traditional Andhra delicacy that melts in the mouth. The delicate sheets
+              wrap around a sweet filling, offering a delightful balance of crisp texture and rich, sugary flavor.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Arunachal Pradesh – Thukpa.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Arunachal Pradesh – Thukpa</h5>
+            <p> Thukpa is a hearty noodle soup made with vegetables or meat, originating from the
+              Tibetan-influenced areas of Arunachal. It's a comforting and nourishing dish, typically flavored with
+              local herbs and spices.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Assam – Masor Tenga.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Assam – Masor Tenga</h5>
+            <p>Masor Tenga is a light and tangy Assamese fish curry made with tomatoes, lemon, or elephant
+              apple. It's typically cooked with freshwater fish and served with rice. This dish showcases Assam's
+              love for mild, sour flavors and its deep connection to fish and seasonal local produce.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Bihar – Litti Chokha.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bihar – Litti Chokha</h5>
+            <p> Litti Chokha is a traditional Bihari dish consisting of wheat balls stuffed with sattu (roasted gram
+              flour) served with mashed vegetables like brinjal, potato, and tomato. Roasted over fire and drizzled
+              with ghee, it's rustic, nutritious, and reflects Bihar's earthy, agrarian food culture.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Chhattisgarh – Faraa.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Chhattisgarh – Faraa</h5>
+            <p>Faraa are steamed dumplings made of rice flour, often stuffed or spiced with local herbs. They are
+              healthy and light, traditionally enjoyed as breakfast or snacks. Faraa is a staple in Chhattisgarh
+              households and showcases the state's preference for simple, rice-based, home-cooked meals.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Gujarat – Dhokla.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Gujarat – Dhokla</h5>
+            <p> Dhokla is a savory steamed cake made from fermented rice and chickpea flour. Soft, spongy, and
+              slightly tangy, it's a beloved Gujarati snack often served with green chutney. Dhokla reflects
+              Gujarat's vegetarian culinary heritage and is commonly enjoyed during breakfast or festive
+              occasions.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Jharkhand – Thekua.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Jharkhand – Thekua</h5>
+            <p>Thekua is a deep-fried sweet snack made from whole wheat flour, jaggery, and ghee. It's especially
+              prepared during the Chhath festival and holds cultural significance in Jharkhand and Bihar. Crisp
+              outside and soft inside, Thekua is a symbol of tradition, simplicity, and devotion.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Kerala – Unniyappam.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Kerala – Unniyappam</h5>
+            <p>Unniyappam are small, sweet rice flour fritters made with jaggery, banana, and coconut. Deep-fried
+              to golden brown, they're soft and spongy, traditionally offered in temples. This beloved snack is a
+             symbol of Kerala's love for coconut, rice, and sweets infused with local flavors.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Madhya Pradesh – Bhutte ka Kees.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Madhya Pradesh – Bhutte ka Kees</h5>
+            <p> Bhutte ka Kees is a street-style delicacy made from grated corn cooked with spices, milk, and ghee.
+              Originating in Indore, it's creamy, mildly sweet, and aromatic. This dish showcases how simple
+              ingredients like corn can be transformed into a unique, flavorful regional specialty.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Maharashtra – Misal Pav.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Maharashtra – Misal Pav</h5>
+            <p>Cheese Pav Bhaji is a Mumbai street food made by mashing spiced vegetables into a buttery curry,
+              topped with cheese and served with buttered pav. It's a modern twist on a traditional favorite and
+              represents Maharashtra's love for spicy, rich, and indulgent street-style meals</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Manipur – Eromba.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Manipur – Eromba</h5>
+            <p>Eromba is a traditional Manipuri dish made with mashed boiled vegetables, fermented fish (ngari),
+              and chili. It's intensely flavorful and often eaten with rice. Eromba reflects the state's reliance on
+              fermentation and bold flavors, rooted in indigenous cooking traditions.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Meghalaya – Jadoh.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Meghalaya – Jadoh</h5>
+            <p>Jadoh is a Khasi rice dish cooked with pork, turmeric, and aromatic spices. It's a hearty and savory
+              meal often enjoyed during celebrations. The name literally means 'rice and meat,' showcasing
+              Meghalaya's tribal food culture centered on meat and indigenous ingredients.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Mizoram – Bai.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Mizoram – Bai</h5>
+            <p> Bai is a healthy Mizo dish made with steamed vegetables, bamboo shoot, and fermented pork. Mild
+              in spices, it's typically eaten with rice. Bai reflects the Mizoram way of life-simple, nutritious, and
+              closely tied to locally available herbs and seasonal produce.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <h1 class="text-center display-4" id="Home">Indian Regional Food</h1>
+    <hr class="w-25 mx-auto">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <img src="North-Indian.jpg" height="496px" width="600px">
+        </div>
+        <div class="col">
+          <p>Indian food is more than just a meal,it's an emotion, a tradition, and a celebration served on a plate. From the smoky clay ovens of the north to the sizzling iron tawas of the south, every corner of India simmers with a unique culinary rhythm. It's a country where recipes are passed down like heirlooms, where every spice has a purpose, and where food is both sacred and sensational.
+             Step into any Indian kitchen and you're greeted by the crackle of mustard seeds in oil, the scent of curry leaves, the swirl of turmeric in the air. The diversity is breathtaking—yet there's a beautiful harmony in the chaos of flavors. One state sweetens its dal, another spikes it with chili, and both claim it as comfort food. This is the magic of India: a land where no two kitchens cook the same way, yet every meal feels like home.
+             Here, a flatbread isn't just a flatbread, it's phulka, roti, paratha, puri, bhakri, or appam, depending on where you are. Rice isn't simply rice; it's biryani, pulao, khichdi, pongal, or sticky rice wrapped in banana leaves. And the love for pickles? Unites us all. Whether it's fiery mango achaar in the north or tangy fish pickles in the coastal belts, a jar of pickle holds memories of sun-dried summers and grandma's touch.
+             Food in India tells stories of festivals lit by laddoos and barfis, of weddings crowned with elaborate thalis, of street corners echoing with the sizzle of chaats and the aroma of pakoras during monsoons. Every dish carries a whisper of the land it comes from: the rugged deserts, the lush coasts, the misty hills, the fertile plains.</p>
+        </div>
+      </div>
+    </div>
+<h1 class="text-center display-5 my-4" id="Explore">Explore More</h1>
+<hr class="w-25 mx-auto">
+
+<div class="container text-center">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="Odisha – Dalma.jpg" class="card-img-top" alt="Odisha Dalma" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Odisha - Dalma</h5>
+          <p class="card-text">Dalma is a wholesome dish made of lentils and vegetables, tempered with panch phoron and cooked without onion or garlic. Served with rice, it's also offered in Jagannath Temple.</p>
+        </div>
+        <div class="card-footer bg-transparent border-top-0">
+          <a href="https://www.oneteaspoonoflife.com/2019/03/dalma.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Punjab – Makki di Roti & Sarson da Saag.jpg" class="card-img-top" alt="Punjab Food" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Punjab - Makki di Roti & Sarson da Saag</h5>
+          <p class="card-text">Sarson da Saag with Makki di Roti is Punjab's winter specialty. The mustard greens curry is slow-cooked with spices and served with cornmeal flatbread and white butter.</p>
+        </div>
+        <div class="card-footer bg-transparent border-top-0">
+          <a href="https://upbeetanisha.com/sarson-ka-saag-and-makki-ki-roti/" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Rajasthan – Dal Baati Churma.jpg" class="card-img-top" alt="Rajasthan Dal Baati Churma" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Rajasthan - Dal Baati Churma</h5>
+          <p class="card-text">Dal Baati Churma is Rajasthan's signature dish, combining baked wheat balls (baati), spicy lentils (dal), and a sweet crumbly dessert (churma). Rich in ghee and tradition.</p>
+        </div>
+        <div class="card-footer bg-transparent border-top-0">
+          <a href="https://www.sharmispassions.com/dal-bati-churma-recipe/" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Sikkim – Phagshapa.png" class="card-img-top" alt="Sikkim Phagshapa" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Sikkim - Phagshapa</h5>
+          <p class="card-text">Phagshapa is a traditional Sikkimese pork dish cooked with radish and dried chilies. It reflects Sikkim's blend of Tibetan and Nepalese food traditions.</p>
+        </div>
+        <div class="card-footer bg-transparent border-top-0">
+          <a href="https://www.kipepeo.in/blog/famous-food-of-sikkim-what-to-eat-and-where-to-find-it/" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Tamil Nadu – Chettinad Chicken.jpg" class="card-img-top" alt="Chettinad Chicken" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Tamil Nadu - Chettinad Chicken</h5>
+          <p class="card-text">Chettinad Chicken is a fiery and aromatic curry made with a unique blend of roasted spices. It's one of Tamil Nadu’s spiciest and most flavorful dishes.</p>
+        </div>
+        <div class="card-footer bg-transparent border-top-0">
+          <a href="https://www.yummytummyaarthi.com/chettinad-chicken/" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Telangana – Hyderabadi Biryani.jpg" class="card-img-top" alt="Hyderabadi Biryani" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Telangana - Hyderabadi Biryani</h5>
+          <p class="card-text">Hyderabadi Biryani is an aromatic rice dish made with marinated meat, saffron, and spices. It’s cooked using the dum method, blending Mughlai and local flavors.</p>
+        </div>
+        <div class="card-footer bg-transparent border-top-0">
+          <a href="https://www.indianhealthyrecipes.com/hyderabadi-biryani-recipe/" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Tripura Mui Borok.jpg" class="card-img-top" alt="Tripura Mui Borok" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Tripura - Mui Borok</h5>
+          <p class="card-text">Mui Borok is Tripura's traditional dish centered around Berma, a fermented dried fish cooked with vegetables and herbs, showcasing tribal culinary heritage.</p>
+        </div>
+        <div class="card-footer bg-transparent border-top-0">
+          <a href="https://ajlee.blog/mui-borok-the-heart-and-soul-of-tripuri-cuisine/" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Uttar Pradesh – Tunday Kababb.jpg" class="card-img-top" alt="Tunday Kabab" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Uttar Pradesh - Tunday Kabab</h5>
+          <p class="card-text">Tunday Kabab is a famous Lucknowi minced meat kebab made with over 100 spices. It's known for its melt-in-mouth texture and royal heritage.</p>
+        </div>
+        <div class="card-footer bg-transparent border-top-0">
+          <a href="https://www.tundaykababi.com/about-us" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Uttarakhand – Kafuli.jpg" class="card-img-top" alt="Kafuli" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Uttarakhand - Kafuli</h5>
+          <p class="card-text">Kafuli is a green curry made from spinach or fenugreek leaves, cooked with rice flour. It's a nutritious dish from the Himalayan region.</p>
+        </div>
+        <div class="card-footer bg-transparent border-top-0">
+          <a href="https://www.euttaranchal.com/culture/kafuli.php" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="West Bengal – Shorshe Ilish.jpg" class="card-img-top" alt="Shorshe Ilish" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">West Bengal - Shorshe Ilish</h5>
+          <p class="card-text">Shorshe Ilish is a traditional Bengali dish made with Hilsa fish in mustard gravy. It reflects Bengal’s love for fish and pungent mustard flavor.</p>
+        </div>
+        <div class="card-footer bg-transparent border-top-0">
+          <a href="https://www.thespiceodyssey.com/eat/shorshe-ilish" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Andaman and Nicobar Islands – Fish Curry.webp" class="card-img-top" alt="Shorshe Ilish" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Andaman and Nicobar Islands-Fish Curry</h5>
+          <p class="card-text"> Fish Curry is a staple in Andaman, made with freshly caught fish, coconut milk, and island spices.
+            Often served with rice, the dish is mildly spiced and infused with tropical flavors. It reflects the
+            islands' coastal lifestyle and reliance on seafood.</p>
+        </div>
+        <div class="card-footer bg-transparent border-top-0">
+          <a href="https://www.indianhealthyrecipes.com/fish-curry-recipe/" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="laskshdweepfood2.jpg" class="card-img-top" alt="Shorshe Ilish" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Lakshadweep-Kadalakka Varuthathu (Fried Chickpeas)</h5>
+          <p class="card-text"> Kadalakka Varuthathu is a popular Lakshadweep snack made from fried spiced chickpeas. Crunchy,
+            savory, and perfect with tea, it represents the islanders' taste for simple, protein-rich snacks
+            influenced by Kerala and Maldivian culinary traditions.</p>
+        </div>
+        <div class="card-footer bg-transparent border-top-0">
+          <a href="https://www.awesomecuisine.com/recipes/37256/lakshadweep-cuisine-the-ultimate-foodies-guide/" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<title>Contact Form</title>
+<div class="container mt-5">
+  <h1 class="text-center mb-4" id="Contact">Contact Me</h1></a>
+  <hr class="w-25 mx-auto">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Please Enter Your Correct Name</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <div id="emailHelp" class="form-text">We'll never share your Message with anyone else.</div>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeo5rAzKztlF3zFZCkN3FGzq3zEwBvYUM5SkO1FAdvc+1z4U" crossorigin="anonymous"></script>
+</body>
+</html>
